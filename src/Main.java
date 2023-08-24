@@ -14,7 +14,7 @@ public class Main {
     }
     public static int count(int[] A) {
         int count = 0;
-        int max = Integer.MIN_VALUE;
+        int max = 0;
         for (int j : A) {
             max = Math.max(max, j);
         }
